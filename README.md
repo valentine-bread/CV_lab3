@@ -116,6 +116,9 @@ writer.save()
 Результаты по каждому изображению и модели формируются в excel файл вида:<br>
 ![](screen/6.jpg)<br>
 
+Результат классификации одного изображения :<br>
+![](screen/8.jpg)<br>
+
 ## Выводы по работе
 В лабораторной работе была реализована система классификации изображений и произведено сравнение 5 моделей сетей для классификации изображений. По итогу модно сделать выводы что все модели показали себя отлично на тестовом датасете. 
 + Alexnet – старая модель и поэтому показывает не столь хорошие результата, 
@@ -124,5 +127,10 @@ writer.save()
 + Vgg – большая модель поэтому занимает много места и показывает большое время работы, но также показывает хорошие результаты.
 
 ## Источники 
-- https://docs.opencv.org/4.x/d4/dc6/tutorial_py_template_matching.html
+- https://pytorch.org/vision/stable/models.html
+- https://pytorch.org/vision/master/models/generated/torchvision.models.vgg16.html
+- https://pytorch.org/vision/master/models/generated/torchvision.models.resnet18.html
+- https://pytorch.org/vision/main/models/generated/torchvision.models.resnet50.html
+- https://pytorch.org/vision/main/models/generated/torchvision.models.mobilenet_v2.html
+- https://pytorch.org/vision/stable/models/generated/torchvision.models.alexnet.html
 
